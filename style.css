@@ -1,0 +1,30 @@
+body{
+  display: block;
+  background-image: url("slider2.jpg");
+  background-size: 100%;
+}
+
+img {
+  z-index: -1;
+  display: contents;
+}
+
+div{
+  margin: 20px 0px;
+  z-index: 0;
+  width: 950px;
+  height: auto;
+  background-color: white;
+  text-align: right;
+  float: right;
+  position: static;
+  font-weight: bold;
+
+}
+h1, p{
+  margin: 30px 10px;
+  height: inherit;
+  display: inherit;
+  width: auto;
+  line-height: 20px;
+}
